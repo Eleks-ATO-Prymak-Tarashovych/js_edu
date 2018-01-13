@@ -1,0 +1,28 @@
+{
+  "name": "eleks_ato_mentorship",
+  "version": "1.0.0",
+  "description": "Eleks ATO Camp metrorship JS education project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eleks-ATO-Prymak-Tarashovych/js_edu.git"
+  },
+  "keywords": [
+    "Eleks",
+    "ATO",
+    "JS"
+  ],
+  "author": "Mykola Prymak, Lev Tarashovych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eleks-ATO-Prymak-Tarashovych/js_edu/issues"
+  },
+  "homepage": "https://github.com/Eleks-ATO-Prymak-Tarashovych/js_edu#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
