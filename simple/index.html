@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple page</title>
+    <title>Пробна_Версія</title>
 </head>
 <body>
+        <a id="myAnchor" href="https://webmail.meta.ua/">Go to Webmail.meta.ua</a>
+        <script>
+                document.getElementById("myAnchor").addEventListener("click", function(event){
+                    event.preventDefault()
+                });
+                </script>
+    <h2> стрічка </h2>
 <script>
     console.log('Hello world!!!');
 </script>
 <script src="js/main.js"></script>
+<h1> Simple Table </h1>
+<script type="text/javascript">
+document.write ('<table width="30%" border="20">');
+    for (i=1; i<6; i++) {
+        document.writeln("<tr>");
+            for (j=1; j<6; j++) document.write ("<td>" + i + j + "<\/td>");
+                document.writeln("<\/tr>");
+    } 
+    document.write ("<\/table> ");
+</script>
 </body>
 </html>
-
