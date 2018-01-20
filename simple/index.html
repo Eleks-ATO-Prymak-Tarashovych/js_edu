@@ -4,20 +4,70 @@
     <title>Пробна_Версія</title>
 </head>
 <body>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <style>
+                .red-text {
+                  color: red;
+                }
+              
+                h2 {
+                  font-family: Lobster, Monospace;
+                }
+              
+                p {
+                  font-size: 16px;
+                  font-family: Monospace;
+                }
+              
+                .thick-green-border {
+                  border-color: rgb(0, 45, 128);
+                  border-width: 40px;
+                  border-style: solid;
+                  border-radius: 50%;
+                }
+              
+                .smaller-image {
+                  width: 100px;
+                }
+              </style>
+              <h2 class="red-text">CatPhotoApp</h2>
+
+              <p>Click here<a href="#">cat photos</a>.</p>
+              <p>Things cats love:</p>
+<ul>
+  <li>cheese</li>
+  <li>milk</li>
+  <li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+  <li>Dogs</li>
+  <li>Water</li>
+  <li>Huver</li>
+</ol>
+<form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <label><input type="checkbox" name="personality"> Loving</label>
+  <label><input type="checkbox" name="personality"> Lazy</label>
+  <label><input type="checkbox" name="personality"> Energetic</label>
+  <input type="text" placeholder="Valerjanka" required>
+  <button type="submit">Submit</button>
+</form>
+
+              
+              <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
         <a id="myAnchor" href="https://webmail.meta.ua/">Go to Webmail.meta.ua</a>
         <script>
                 document.getElementById("myAnchor").addEventListener("click", function(event){
                     event.preventDefault()
                 });
                 </script>
-    <h2> стрічка </h2>
     <a href="https://www.google.com.ua/">ЗНАННЯ</a>
 <script>
     console.log('Hello world!!!');
 </script>
 <script src="js/main.js"></script>
-<h1> Simple Table </h1>
-<h2> ---^--- </h2>
 <script type="text/javascript">
 document.write ('<table width="30%" border="20">');
     for (i=1; i<6; i++) {
